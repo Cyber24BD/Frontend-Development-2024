@@ -7,13 +7,13 @@
 2. <a href="https://www.youtube.com/playlist?list=PLCfDS0QnDfJxeH4T7nnCLKzDNwiqoCwOV">Frontend Playlist</a>
 3. <a href="https://facebook.com/toamun.education">Facebook Page</a>
 
-<h2 align="centern> A Languages-Frameworks-Tools </h2> 
+<h2 align=centern>"A Languages-Frameworks-Tools"</h2> 
 <br> 
 
-<div align-"center"> <a href="https://skillicons.dev"> 
+<div align-"center"> <a href="#"> 
 
-<img src="https://skillicons.dev/icons?i=nodejs,github,python,javascript,express,firebase,mongodb,c,java"/>
+<img src="https://skillicons.dev/icons?i=nodejs,github,python,javascript,firebase,mongodb"/>
 
 <br> 
 
-<img src ="https://skillicons.dev/icons?i=react,r,bootstrap,mui,mysql,flask,html,css,vscode,figma,git"/> </a> </div> 
+<img src ="https://skillicons.dev/icons?i=react,bootstrap,mysql,flask,html,css,vscode,figma,git"/> </a> </div> 
