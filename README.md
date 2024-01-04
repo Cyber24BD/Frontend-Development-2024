@@ -7,12 +7,12 @@
 2. <a href="https://www.youtube.com/playlist?list=PLCfDS0QnDfJxeH4T7nnCLKzDNwiqoCwOV">Frontend Playlist</a>
 3. <a href="https://facebook.com/toamun.education">Facebook Page</a>
 
-<h2 align=centern>"A Languages-Frameworks-Tools"</h2> 
+<h2 align=centern>We Will Learn : </h2> 
 <br> 
 
 <div align-"center"> <a href="#"> 
 
-<img src="https://skillicons.dev/icons?i=nodejs,github,python,javascript,firebase,mongodb"/>
+<img src="https://skillicons.dev/icons?i=nodejs,github,python,javascript,firebase,mongodb,tailwindcss"/>
 
 <br> 
 
