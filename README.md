@@ -10,10 +10,12 @@
 <h2 align=centern>We Will Learn : </h2> 
 <br> 
 
-<div align-"center"> <a href="#"> 
+<p align="center">
 
 <img src="https://skillicons.dev/icons?i=nodejs,github,python,javascript,firebase,mongodb,tailwindcss"/>
 
 <br> 
 
-<img src ="https://skillicons.dev/icons?i=react,bootstrap,mysql,flask,html,css,vscode,figma,git"/> </a> </div> 
+<img src ="https://skillicons.dev/icons?i=react,bootstrap,mysql,flask,html,css,vscode,figma,git"/> </a> 
+
+</p>
