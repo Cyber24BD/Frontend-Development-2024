@@ -11,10 +11,7 @@
 <br> 
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,github,python,javascript,firebase,mongodb,tailwindcss"/> </p>
-
-<br> 
-
+<img src="https://skillicons.dev/icons?i=nodejs,github,python,javascript,firebase,mongodb,tailwindcss,django"/> </p>
 <p align="center">
 <img src ="https://skillicons.dev/icons?i=react,bootstrap,mysql,flask,html,css,vscode,figma,git"/> </a> </p>
 
