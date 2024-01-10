@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance input type</title>
+</head>
+<body>
+    <form action="">
+        <label for="textarea">Tell us about yourself : </label> <br>
+        <textarea id="textarea" rows="10" cols="25"></textarea> <br><br><br>
+        
+        <label for="range">Select your quantity :</label> <br>
+        <input type="range" name="range" id="range" min="10" max="200" step="10"> <br><br><br>
+        
+        <label for="radio">Small </label>
+        <input type="radio"  id="radio" name="shirt_size">
+        <label for="radio2">Larze </label>
+        <input type="radio"  id="radio2" name="shirt_size">
+        <label for="radio3">Medium </label>
+        <input type="radio"  id="radio3" name="shirt_size"> <br><br>
+
+        <select name="size" id="learning">
+            <option value="x">Small</option>
+            <option value="xl">Medium</option>
+            <option value="xll">Large</option>
+        </select>
+        <br><br><br>
+        
+        <label for="TOS">Tearms and Service : </label>
+        <input type="checkbox" name="TOS" id="TOS">
+        <br><br><br>
+
+        <input type="color">
+
+        <br><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
