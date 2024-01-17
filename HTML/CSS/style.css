@@ -1,0 +1,24 @@
+body {
+    background-color: rgba(0,0,0,1);
+}
+
+p {
+    color: rgb(3, 34, 3);
+}
+
+h1 {
+    color: greenyellow;
+}
+
+h3 {
+    color: rgb(50, 39, 151);
+}
+
+h2 {
+    color: rgb(74, 71, 255);
+    background: #bafcad;
+}
+
+span {
+    background: yellowgreen;
+}
