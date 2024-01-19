@@ -1,0 +1,25 @@
+li {
+    color: blue;
+}
+
+span {
+    color: aqua;
+    background-color: black;
+}
+
+div {
+    color: green;
+    border: 1px solid;
+}
+
+ul, li {
+    border: inherit;
+}
+
+p {
+    border: inherit;
+}
+
+h1, h2, h3{
+    border: inherit;
+}
