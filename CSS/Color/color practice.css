@@ -1,0 +1,32 @@
+h2 {
+    color: brown;
+}
+
+h3 {
+    color:#6525ff ;
+}
+
+
+p{
+    color: rgb(105, 102, 102);
+}
+
+
+table {
+    border: 1px solid;
+    padding: 2px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+    background-color: rgba(0,0,0, 0.8);
+    color: rgb(146, 255, 152);
+}
+
+thead, th {
+    border: 3px solid;
+    border-color: #f8586b;
+    color: red;
+
+}
