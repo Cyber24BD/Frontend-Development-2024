@@ -1,15 +1,19 @@
 h2 {
     font-family: "Georgia";
-    font-size: 10vw;
+    font-size: 19px;
     font-style: oblique 1deg;
     font-weight: 900;
+    text-align: start;
+    /* direction: rtl; */
 }
 
 body {
     font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
 }
  em {
     font-style: oblique 10deg;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 15px;
+    text-align: center;
  }
