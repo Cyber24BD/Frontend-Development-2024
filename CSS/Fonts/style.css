@@ -2,7 +2,7 @@ h2 {
     font-family: "Georgia";
     font-size: 19px;
     font-style: oblique 1deg;
-    font-weight: 900;
+     /* font-weight: 900; */
     text-align: start;
     /* direction: rtl; */
 }
@@ -16,4 +16,19 @@ body {
     font-weight: bold;
     font-size: 15px;
     text-align: center;
+    /* color | offset-x | offset-y | blur-radius */
+    text-shadow: red 2px 1px 5px;
  }
+
+p {
+    /* font-size: 50px; */ 
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+h2 {
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 2px 0px 3px red, 4px 0px 0px green, 6px 0px 1px indigo;
+    letter-spacing: 5px;
+}
