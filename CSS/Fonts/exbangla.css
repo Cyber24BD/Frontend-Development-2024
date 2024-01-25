@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.maateen.me/adorsho-lipi/font.css');
+@import url('https://fonts.maateen.me/bensen/font.css');
+
+p {
+    font-family: 'BenSen', sans-serif;
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'AdorshoLipi', sans-serif;
+}
