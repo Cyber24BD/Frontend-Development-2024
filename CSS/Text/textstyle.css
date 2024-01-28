@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Courier Prime';
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 25px;
+    text-transform: capitalize;
+    /* text-decoration-line: underline;
+    text-decoration-color: rgb(13, 199, 28);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px; */
+
+    text-decoration: underline  rgb(111, 33, 255) 2px wavy;
+}

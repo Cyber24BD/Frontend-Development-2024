@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* h2 {
+    color: blueviolet;
+} */
+
+#idselector {
+    color : red;
+}
+
+#uses {
+    color: blue;
+}
+
+span {
+    font-weight: 700;
+    color: blue;
+}
+
+#level1 {
+    background-color: bisque;
+}
+
+#level2 {
+    background-color: greenyellow;
+}
