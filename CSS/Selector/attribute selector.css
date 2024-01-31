@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
+* {
+    font-family: "Roboto Mono";
+    background-color: antiquewhite;
+    /* border: 1px solid rgb(255, 47, 47);
+    border-radius: 5px; */
+    text-align: justify;
+    /* color: brown; */
+} 
+
+a[href*="wiki"] {
+   color : red; 
+}
+
+a[href^="#"]{
+    color: rgb(6, 139, 48);
+}
+
+a[href$="org"]{
+    background-color: black;
+    color: rgb(217, 196, 2);
+}
+
+input[type="number"]{
+    background-color: black;
+    color: rgb(24, 237, 38);
+}
+
+input[type="email"]{
+    background-color: rgb(255, 133, 133);
+    color: rgb(165, 255, 252);
+}
