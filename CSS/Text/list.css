@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
+* {
+    font-family: "Roboto Mono";
+    text-align: justify;
+} 
+
+li {
+    list-style-type: disc;
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-type: armenian;
+    list-style-type: lower-alpha;
+    list-style-type: upper-alpha;
+    list-style-type: decimal;
+    list-style-type: upper-roman;
+    list-style-type: lower-roman;
+    list-style-type: georgian;
+    list-style-type: lower-greek;
+    list-style-type: none;
+    list-style-type: "- ";
+    list-style-type: "🔗";
+    /* list-style-image: url("https://images.emojiterra.com/twitter/512px/1f517.png"); */
+    list-style-position: outside;
+    /* list-style-position: inside; */
+}
