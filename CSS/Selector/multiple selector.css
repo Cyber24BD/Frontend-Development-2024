@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
+* {
+    font-family: "Roboto Mono";
+    background-color: rgb(197, 247, 231);
+    text-align: justify;
+} 
+
+h1, h2 {
+    color: red;
+}
+
+#link1id, .link1class {
+    color: rgb(84, 61, 5);
+}
+
+ span {
+    color: green;
+} 
+
+ .links-selector span {
+    color: rgb(7, 184, 45);
+} 
+
+ ul li {
+    background-color: rgb(124, 243, 100);
+} 
+
+.links-selector li span{
+    background-color: rgb(255, 208, 208);
+}
+
+.main h2{
+    color: rgb(3, 62, 43);
+}
+
+.main.links-selector span{
+    color: black;
+    background-color: rgb(196, 211, 255);
+}
