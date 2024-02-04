@@ -24,3 +24,20 @@ li {
     list-style-position: outside;
     /* list-style-position: inside; */
 }
+
+a {
+  color: green;  
+  text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: not-allowed;
+    cursor: pointer;
+    cursor: grab;
+    cursor: help;
+    cursor: progress;
+}
+
+/* Documantation : https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
