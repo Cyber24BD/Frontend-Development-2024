@@ -1,0 +1,40 @@
+#main{
+    /* just for understnding */
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+
+    /* border code */
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(13, 146, 64);
+
+    border: medium dashed rgb(9, 120, 61);
+    border: 5px dashed rgb(9, 120, 61);
+    border-style: none;
+    border-style: outset;
+    border-style: inset;
+    border-radius: 10px;
+
+    /* Keyword values */
+    border-style: none;
+    border-style: hidden;
+    border-style: dotted;
+    border-style: dashed;
+    border-style: solid;
+    border-style: double;
+    border-style: groove;
+    border-style: ridge;
+    border-style: inset;
+    border-style: outset;
+
+    border-width: 5px;
+    border-color: blue;
+    border-style: solid ;
+    border-top-style: dashed;
+    border-bottom-color: green ;
+    border-left-color: brown;
+    border-right-width: 10px;
+}
+
