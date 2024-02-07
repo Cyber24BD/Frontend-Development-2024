@@ -1,0 +1,21 @@
+.main{
+    border: 2px solid orangered;
+    border-radius: 5px;
+
+    height: 100px;
+    width: 125px;
+}
+
+
+.main2 {
+    border: 3px solid green;
+    border-radius: 3px;
+
+    /* height: 50px;
+    width: 50px; */
+
+    /* Note : Persentange use for monitoring main div height & width  */
+
+    height: 50%;
+    width: 50%;
+}
