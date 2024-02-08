@@ -1,0 +1,32 @@
+.main {
+    border: 1px solid indianred;
+    border-radius: 5px;
+}
+
+h3 {
+    padding-left: 10px;
+    padding-left: 20%;
+    padding-left: 1rem;
+    padding: 10px 5px;
+
+    /* Shorthand : https://developer.mozilla.org/en-US/docs/Web/CSS/padding */
+
+    /* Apply to all four sides */
+    padding: 1em;
+
+    /* top and bottom | left and right */
+    padding: 5% 10%;
+
+    /* top | left and right | bottom */
+    padding: 1em 2em 2em;
+
+    /* top | right | bottom | left */
+    padding: 5px 1em 0 2em;
+
+}
+
+p{
+    border: 1px solid orangered;
+    border-radius: 5px;
+    padding: 10px 0px 4px 20px;
+}
