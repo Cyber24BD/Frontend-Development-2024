@@ -29,3 +29,47 @@ h1 {
     border-radius: 4px;
     display: inline-block;
 }
+
+.box3 {
+    height: 100px;
+    width: 60%;
+    min-width: 300px;
+    max-width: 500px;
+    border: 1px solid rgb(130, 144, 251);
+    background-color: royalblue;
+    border-radius: 10px 20px 20px 20px;
+    box-shadow: 10px 5px 50px rgb(179, 195, 255),
+    -10px -5px 50px rgb(255, 143, 118);
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.box4 {
+    height: 200px;
+    width: 80%;
+    min-width: 200px;
+    max-width: 500px;
+    background-color: rgb(55, 108, 253);
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+.con3 {
+    margin-left: 20px;
+    padding-top: 15px;
+    color: white;
+}
+
+button {
+    background-color: rgb(49, 49, 253);
+    color: white;
+    border: 0px solid;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(43, 43, 189);
+    border: 1px solid rgb(219, 219, 255);
+}
