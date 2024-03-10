@@ -1,7 +1,5 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* background-color: black;
-    color: aliceblue; */
 }
 
 header{
@@ -38,55 +36,61 @@ ul li {
     padding-right: 17px;
 }
 
-a{
+ul li a{
     text-decoration: none;
     color: rgb(34, 25, 82);
 }
 
-a:hover{
+ul li a:hover{
     text-decoration: underline;
     color: blue;
 }
 
-a img{
+ul li a img{
     height: 40px;
     width: 40px;
     padding-right: 5px;
 
 }
 
-.headingName h2 {
-    border: 4px solid royalblue;
+.mainh2div{
+    border: 5px solid royalblue;
     border-radius: 5px;
     text-align: center;
-    margin-top: 50px;
+    padding: 5px;
+    margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 30px;
-    padding: 10px;
+    margin-bottom: 70px;
+}
+#mainh2 {
+    margin:0 auto;
 }
 
-.imgContainer {
-    margin: 20px;
-}
-
-.ingdiv {
+.imgcontainer {
     display: inline-block;
-    width: 49%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.ingdiv img{
+.mainImg{
+    width: 49%;
+    display: inline-block;
+    padding: 5px;
+}
+
+.mainImg img{
+    border-radius: 5px;
     width: 100%;
-    border-radius: 10px;
     height: 500px;
     object-fit: cover;
-
 }
 
-.ingdiv h2{
+.mainImg h2{
     font-weight: 200;
     margin: 0px;
     margin-bottom: 20px;
-    text-decoration:underline ;
     text-align: center;
+    text-decoration: underline;
 }
