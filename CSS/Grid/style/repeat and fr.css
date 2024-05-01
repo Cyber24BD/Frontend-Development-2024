@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.itemContainer {
+    display: grid;
+    width: 800px;
+    height: 400px;
+    grid-template-columns: 2fr repeat(1, 1fr) 2fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.item {
+    margin: 3px;
+    padding: 3px;
+    border-radius: 10px ;
+}
+
+.item-1{
+    background-color: rgb(241, 210, 169);
+}
+
+.item-2{
+ background-color: rgb(243, 245, 175);
+}
+
+.item-3 {
+    background-color: rgb(196, 244, 159);
+}
+
+.item-4 {
+    background-color: rgb(126, 225, 202);
+}
+
+.item-5 {
+    background-color: aqua;
+}
+
+.item-6 {
+    background-color: rgb(196, 205, 255);
+}
