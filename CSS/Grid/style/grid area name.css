@@ -16,22 +16,29 @@
     height: 400px;
     grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(5, 100px) ;
+    grid-template-areas: 
+        "header header header"
+        "menu item1 item2"
+        "menu content content"
+        "menu content content"
+        "footer footer footer"
+    ;
 }
 
 .Header {
-    
+    grid-area: header;
 }
 
 .Menu {
-    
+    grid-area: menu;
 }
 
 .Content {
-    
+    grid-area: content;
 }
 
 .Footer {
-    
+    grid-area: footer;
 }
 
 .item {
@@ -60,13 +67,15 @@
 
 .item-5 {
     background-color: aqua;
+    grid-area: item1;
 }
 
 .item-6 {
     background-color: rgb(196, 205, 255);
+    grid-area: item2;
 }
 
-.item-7 {
+/* .item-7 {
     background-color: rgb(141, 163, 255);
 }
 
@@ -76,4 +85,4 @@
 
 .item-9 {
     background-color: rgb(255, 166, 166);
-}
+} */
