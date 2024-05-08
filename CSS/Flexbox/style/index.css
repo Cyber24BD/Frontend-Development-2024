@@ -1,3 +1,25 @@
 .container{
-    
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* flex-start, flex-end, center */
+    /* space-evenly, space-between, space-arround */
 }
+
+/* .container > .contact {
+    margin-left: auto;
+} */
+
+/* .container > div {
+    margin: auto;
+} */
+
+.container > div {
+    flex: 1;
+    /* grow, shrink, basis  */
+    /* width: 33.3333%; */
+}
+
+/* .container > .contact {
+    flex: 2;
+} */
