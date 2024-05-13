@@ -44,3 +44,28 @@ p {
 h2 {
     font-size: 40px;
 }
+
+i {
+    font-size: 50px;
+}
+
+.mainSocial{
+    display: grid;
+    place-items: center;
+}
+
+.pstext{
+    color: rgb(89, 89, 241);
+}
+
+.socialContainer{
+    border: 2px solid royalblue;
+    margin: 10px;
+    padding: 0px 30px 30px 30px;
+    border-radius: 20px;
+}
+
+.SocialIcons{
+    display: inline-flex;
+    gap: 10px;
+}
