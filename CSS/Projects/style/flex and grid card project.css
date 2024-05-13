@@ -1,0 +1,32 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    border: 2px solid rgb(56, 56, 59);
+    border-radius: 7px;
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container:hover {
+    border-color: royalblue;
+}
+
+
+img {
+    height: 100%;
+    width: 100px;
+}
+
+p {
+    font-size: larger;
+    text-align: justify;
+}
+
+h2 {
+    font-size: larger;
+}
