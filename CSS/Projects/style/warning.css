@@ -61,6 +61,7 @@ p {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .main4 {
@@ -70,7 +71,6 @@ p {
     gap: 10px;
     border-radius: 10px;
     background-color: rgba(96, 114, 215, 0.205);
-    flex: 1;
 }
 
 .cardsvg {
