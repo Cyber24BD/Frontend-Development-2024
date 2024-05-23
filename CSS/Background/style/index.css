@@ -12,4 +12,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+    background-position: bottom 25%  left 50%;
+    background-clip: content-box;
 }
