@@ -1,0 +1,43 @@
+.box {
+    border: 5px solid royalblue;
+    border-radius: 10px;
+    height: 300px;
+    background-image: linear-gradient(0.58turn,rgb(250, 73, 73) 10% 30%, rgb(107, 236, 107) 50% 80%, rgb(135, 135, 240));
+    /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) ),
+            linear-gradient(127deg, rgba(87, 198, 87, 0.8), rgba(0,255,0,0) ),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0)); */
+}
+
+.radial {
+    margin-top: 10px;
+    border: 5px solid royalblue;
+    border-radius: 10px;
+    height: 300px;
+    background-image: radial-gradient(circle at bottom, rgb(245, 169, 46) 30%, rgb(142, 250, 142), rgb(125, 125, 255));
+}
+
+.conic {
+    margin-top: 10px;
+    border: 5px solid royalblue;
+    border-radius: 10px;
+    height: 300px;
+    background-image: conic-gradient(red, green, red);
+}
+
+.rpliniew {
+    margin-top: 10px;
+    border: 5px solid royalblue;
+    border-radius: 10px;
+    height: 300px;
+    background-image: repeating-linear-gradient(red 10px, green 50px);
+}
+
+.box2 {
+    margin-top: 10px;
+    border: 5px solid royalblue;
+    border-radius: 10px;
+    height: 300px;
+    background-size: 110px 110px;
+    background-position: 0px 0px,55px 55px;
+    background-image: radial-gradient(50% 50% at 50% 50%, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%),radial-gradient(50% 50% at 50% 50%, #FFFFFFFF 0%, #FFFFFFFF 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%);
+}
