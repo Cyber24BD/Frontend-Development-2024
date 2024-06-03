@@ -1,0 +1,10 @@
+img {
+    height: 100px;
+    width: 100px;
+    /* filter: blur(5px); */
+    /* filter: brightness(10%); */
+    /* filter: contrast(250%); */
+    /* filter: grayscale(10%); */
+    /* filter: drop-shadow(10px 25px 20px rgb(249, 160, 160)); */
+    filter: brightness(120%) contrast(175%);
+}
