@@ -1,0 +1,29 @@
+.box {
+    background-color: rgb(145, 173, 255);
+    border: 1px solid rgb(23, 76, 235);
+    border-radius:10px;
+    margin: 50px;
+    height: 400px;
+    width: 1000px;
+    position: relative;
+}
+
+.box2 {
+    /* display: grid;
+    align-items: center;
+    justify-content: center; */
+    height: 50px;
+    /* width: px; */
+    background-color: rgb(81, 95, 252);
+    border-radius: 10px;
+    position: absolute;
+    right: calc(50% - 25px);
+    /* right: 225px; */
+    top: -25px;
+}
+
+.box2 p {
+    padding: 0px 20px;
+    color: aliceblue;
+    /* font-size: 20px; */
+}
