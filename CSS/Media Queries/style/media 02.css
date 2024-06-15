@@ -1,0 +1,36 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(199, 199, 255);
+}
+
+
+
+/* @media (max-width: 500px) or (min-width:800px) {
+    body {
+        background-color: aqua;
+    }
+} */
+
+@media (min-width: 500px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+
+
+
+@media only print {
+    body {
+        font-size: 100px;
+        color: rgb(215, 60, 60);
+    }
+}
+
+
+
+/* @media only screen and (max-width:500px) {
+    body {
+        background-color: rgb(255, 221, 221);
+    }
+} */
