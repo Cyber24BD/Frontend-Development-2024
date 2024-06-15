@@ -1,0 +1,39 @@
+.text {
+    border: 1px solid royalblue;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    display: inline-block;
+    transform: rotate(90deg);
+    /* transform: scale(1.8, 2.6); */
+}
+
+.testMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.test {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rosybrown;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+.test1 {
+    background-color: rgb(132, 132, 255);
+    transform: scale(1.2) skew(10deg, 20deg);
+
+    /* margin-right: 35px; */
+}
+
+.test2 {
+    background-color: rgb(97, 251, 218);
+}
+
+.test3 {
+    background-color: rgb(217, 99, 162);
+}
