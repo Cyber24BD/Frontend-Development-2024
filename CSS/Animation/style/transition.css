@@ -5,8 +5,17 @@ button {
     border: 0px;
     background-color: royalblue;
     color: white;
+    transition: all 2s ease-in-out 3s;
+    /* transition: background-color 3s, color 1s, border 3s; */
+    /* proparity duration  timing-function delay*/
 }
 
 button:hover {
-    
+    /* transition: background-color 3s; */
+    transform: translate(-20px, 40px);
+    background-color: rgb(120, 189, 249);
+    color: brown;
+    /* border: 1px solid rosybrown; */
 }
+
+/* Timing function : https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function */
