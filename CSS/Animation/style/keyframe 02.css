@@ -11,9 +11,22 @@ body {
     border: 1px solid royalblue;
     border-radius: 10px;
     background-color: rgb(124, 124, 249);
-    animation-name: slide ;
+    /* animation-name: slide ;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+    animation-timing-function: ease-in-out;
+} */
+
+    animation: 2s ease-in-out 0s slide infinite alternate;
+
 }
+
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/animation */
 
 @keyframes slide {
     from {
@@ -21,7 +34,8 @@ body {
     }
 
     to {
-        transform: translateX(150px);
+        transform: translateX(50px);
+        background-color: antiquewhite;
     }
 }
 
