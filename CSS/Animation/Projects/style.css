@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+button {
+    display: flex;
+    padding: 10px 20px;
+    border: 1px solid rosybrown;
+    border-radius: 10px;
+    background-color: rgb(255, 242, 242);
+    font-size: 30px;
+    align-items: center;
+    gap: 10px;
+    transition: all 1s;
+}
+
+button img {
+    width: 50px;
+    /* Copy code to element you want to animate */
+    animation: Sus-cuntom 2s ease 0s infinite normal none;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    /* animation: Vib-cuntom 2s ease 0s infinite normal none; */
+    animation: customAni 4s infinite alternate;
+    }
+
+
+/* Copy this code after the above code */
+@keyframes Sus-cuntom {
+    0%,
+    100% {
+      transform: rotate(0deg);
+      transform-origin: 50% 0;
+    }
+  
+    10% {
+      transform: rotate(2deg);
+    }
+  
+    20%,
+    40%,
+    60% {
+      transform: rotate(-4deg);
+    }
+  
+    30%,
+    50%,
+    70% {
+      transform: rotate(4deg);
+    }
+  
+    80% {
+      transform: rotate(-2deg);
+    }
+  
+    90% {
+      transform: rotate(2deg);
+    }
+  }
+  
+
+/* Copy this code after the above code */
+@keyframes Vib-cuntom {
+    0% {
+      transform: translate(0);
+    }
+  
+    20% {
+      transform: translate(-2px, 2px);
+    }
+  
+    40% {
+      transform: translate(-2px, -2px);
+    }
+  
+    60% {
+      transform: translate(2px, 2px);
+    }
+  
+    80% {
+      transform: translate(2px, -2px);
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+
+@keyframes customAni {
+    0% {
+        transform: translateY(-25px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
