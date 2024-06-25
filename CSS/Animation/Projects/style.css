@@ -97,11 +97,11 @@ button:hover {
   
 
 @keyframes customAni {
-    0% {
-        transform: translateY(-25px);
+    0%, 100% {
+        transform: translateY(0px);
     }
 
-    100% {
-        transform: translateY(0px);
+    50% {
+        transform: translateY(-25px);
     }
 }

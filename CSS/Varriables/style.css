@@ -1,0 +1,20 @@
+:root {
+    --red : rgb(135, 180, 252);
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: 2px solid ;
+    border-radius: 10px;
+    background-color: var(--red) ;
+}
+
+h2 {
+    color: var(--red);
+}
+
+button:hover {
+    background-color: var(--red);
+}
